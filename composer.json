@@ -7,14 +7,18 @@
 	"require": {
 		"laravel/framework": "4.2.*"
 	},
+	"require-dev": {
+    "behat/behat": "~3.0",
+    "phpspec/phpspec": "~2.0",
+    "phpunit/phpunit": "~4.1"
+	},
 	"autoload": {
 		"classmap": [
 			"app/commands",
 			"app/controllers",
 			"app/models",
 			"app/database/migrations",
-			"app/database/seeds",
-			"app/tests/TestCase.php"
+			"app/database/seeds"
 		]
 	},
 	"scripts": {
